@@ -1,5 +1,4 @@
 import * as THREE from 'https://cdn.skypack.dev/three@0.129.0/build/three.module.js';
-import { OrbitControls } from 'https://cdn.skypack.dev/three@0.129.0/examples/jsm/controls/OrbitControls.js';
 import { GLTFLoader } from 'https://cdn.skypack.dev/three@0.129.0/examples/jsm/loaders/GLTFLoader.js';
 var loader = new GLTFLoader();
 
@@ -21,12 +20,6 @@ scene.add( ambientLight );
 const dirLight = new THREE.DirectionalLight( 0xefefff, 1.5 );
 dirLight.position.set( 10, 10, 10 );
 scene.add( dirLight );
-`
-const geometry = new THREE.BoxGeometry( 1, 1, 1 );
-const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
-const cube = new THREE.Mesh( geometry, material );
-scene.add( cube );`
-
 
 camera.position.z = 5;
 
