@@ -110,7 +110,7 @@ var clan, elementaire, elements, ermite, l_elements, matrice_interdit, name, nb,
     if (r_clan === "Gugen") {
       r_elements = "multiple";
       r_elements2 = "pouvant fusionner";
-      r_elements3 = "sublimer ses \u00e9l\u00e9ments selon son niveau";
+      r_elements3 = " ";
     }
     balise=["name","firstclass","secondclass","firstnature","secondnature","thirdnature"];
     document.getElementById(balise[0]+i).innerHTML=input+' '+r_clan+' ('+r_sexe+')';
