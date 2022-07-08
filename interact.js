@@ -6,8 +6,8 @@ function getValue() {
 
 var clan, elementaire, elements, ermite, l_elements, matrice_interdit, name, nb, r_clan, r_elementaire, r_elements, r_elements2, r_elements3, r_sexe, r_style, r_voie, sexe, style, voie;
   sexe = ["H", "F"];
-  clan = ["Uchiwa", "Senju", "Hyuga", "Aburame", "Inuzuka", "Kamizuru", "Hikai", "Hozuki", "Hoshigaki", "Kaguya", "Denki", "Chinoike", "Bunraku", "Sabaku", "Kami", "Oni", "Uzumaki", "Ninshu (Sumie)", "Ninshu (Yosuga)", "Ermite", "Akimichi", "Hatake", "Gugen"];
-  ermite = ["Okami", "Kame", "Ratto", "Tako", "Namekujin", "Raion", "Taka", "Gama", "Kumo", "Hebi", "Saru", "Oushiza"];
+  clan = ["Katabami", "Uchiwa", "Senju", "Hyuga", "Aburame", "Inuzuka", "Kamizuru", "Hikai", "Hozuki", "Hoshigaki", "Kaguya", "Denki", "Chinoike", "Bunraku", "Sabaku", "Kami", "Oni", "Uzumaki", "Ninshu (Sumie)", "Ninshu (Yosuga)", "Ermite", "Akimichi", "Hatake", "Gugen"];
+  ermite = ["Okami", "Kame", "Nezumi", "Tako", "Namekujin", "Raion", "Taka", "Gama", "Kumo", "Hebi", "Saru", "Oushiza"];
   voie = ["Ninjutsu", "Genjutsu", "Iryojutsu", "Fuinjutsu", "double-style"];
   style = ["Karate Aquatique", "Shorinji Kempo", "Juken", "Portes et Respirations C\u00e9lestes", "Ep\u00e9istes de la Brume", "Shugurejutsu", "Multiclonage", "Kata Ichi-Ry\u00fb", "Nodo no Oyayubi", "Tessen", "Kyujutsu", "B\u00f4 Jiei", "Shuryo Sasori", "Kari Sasori", "50 techniques de l ombre", "Hangu to Hugo"];
   matrice_interdit = [["Karate Aquatique", "Karate Aquatique"], ["Karate Aquatique", "Shorinji Kempo"], ["Karate Aquatique", "Juken"], ["Karate Aquatique", "Multiclonage"], ["Karate Aquatique", "Karate Aquatique"], ["Shorinji Kempo", "Shorinji Kempo"], ["Shorinji Kempo", "Juken"], ["Shorinji Kempo", "Portes et Respirations C\u00e9lestes"], ["Shorinji Kempo", "Ep\u00e9istes de la Brume"], ["Shorinji Kempo", "Multiclonage"], ["Shorinji Kempo", "Kyujutsu"], ["Shorinji Kempo", "50 techniques de l ombre"], ["Juken", "Juken"], ["Juken", "Portes et Respirations C\u00e9lestes"], ["Juken", "Multiclonage"], ["Juken", "Hangu to Hugo"], ["Portes et Respirations C\u00e9lestes", "Portes et Respirations C\u00e9lestes"], ["Portes et Respirations C\u00e9lestes", "Ep\u00e9istes de la Brume"], ["Portes et Respirations C\u00e9lestes", "Shugurejutsu"], ["Portes et Respirations C\u00e9lestes", "Multiclonage"], ["Portes et Respirations C\u00e9lestes", "Kata Ichi-Ry\u00fb"], ["Ep\u00e9istes de la Brume", "Ep\u00e9istes de la Brume"], ["Ep\u00e9istes de la Brume", "Multiclonage"], ["Ep\u00e9istes de la Brume", "Kata Ichi-Ry\u00fb"], ["Ep\u00e9istes de la Brume", "B\u00f4 Jiei"], ["Ep\u00e9istes de la Brume", "Hangu to Hugo"], ["Shugurejutsu", "Shugurejutsu"], ["Shugurejutsu", "Multiclonage"], ["Shugurejutsu", "Hangu to Hugo"], ["Multiclonage", "Multiclonage"], ["Multiclonage", "Kata Ichi-Ry\u00fb"], ["Multiclonage", "Nodo no Oyayubi"], ["Multiclonage", "Tessen"], ["Multiclonage", "Kyujutsu"], ["Multiclonage", "B\u00f4 Jiei"], ["Multiclonage", "Shuryo Sasori"], ["Multiclonage", "Kari Sasori"], ["Multiclonage", "50 techniques de l ombre"], ["Multiclonage", "Hangu to Hugo"], ["Kata Ichi-Ry\u00fb", "Kata Ichi-Ry\u00fb"], ["Kata Ichi-Ry\u00fb", "B\u00f4 Jiei"], ["Nodo no Oyayubi", "Nodo no Oyayubi"], ["Tessen", "Tessen"], ["Kyujutsu", "Kyujutsu"], ["Kyujutsu", "Hangu to Hugo"], ["B\u00f4 Jiei", "B\u00f4 Jiei"], ["Shuryo Sasori", "Shuryo Sasori"], ["Shuryo Sasori", "Hangu to Hugo"], ["Kari Sasori", "Kari Sasori"], ["Kari Sasori", "Hangu to Hugo"], ["50 techniques de l ombre", "50 techniques de l ombre"], ["50 techniques de l ombre", "Hangu to Hugo"], ["Hangu to Hugo", "Hangu to Hugo"]];
@@ -21,11 +21,11 @@ var clan, elementaire, elements, ermite, l_elements, matrice_interdit, name, nb,
   elements["Raiton"] = {};
   elements["Doton"] = {};
   elements["Suiton"] = {};
-  elements["Katon"]["Katon"] = "Hamuraton";
+  elements["Katon"]["Katon"] = "Rezuton";
   elements["Futon"]["Futon"] = "Heton";
   elements["Raiton"]["Raiton"] = "Hariton";
   elements["Doton"]["Doton"] = "Shoton";
-  elements["Suiton"]["Suiton"] = "Sumiton";
+  elements["Suiton"]["Suiton"] = "Shinton";
   elements["Katon"]["Suiton"] = "Vuuton";
   elements["Katon"]["Doton"] = "Yoton";
   elements["Katon"]["Raiton"] = "Bakuton";
