@@ -77,7 +77,7 @@ var clan, elementaire, elements, ermite, l_elements, matrice_interdit, name, nb,
     if (r_voie === "double-style") {
       r_voie = _.sample(style);
 
-      while ([r_style, r_voie].includes(matrice_interdit) || [r_voie, r_style].includes(matrice_interdit) || r_voie === "Karate Aquatique" && r_clan !== "Hoshigaki" || r_voie === "Shorinji Kempo" && r_clan.slice(0, 6) !== "Ninshu" || r_voie === "Juken" && r_clan !== "Hyuga") {
+      while ([r_style, r_voie].includes(matrice_interdit) || [r_voie, r_style].includes(matrice_interdit) || r_voie === "Karate Aquatique" && r_clan !== "Hoshigaki" || r_voie === "Shorinji Kempo" && r_clan.slice(0, 6) !== "Ninshu" || r_voie === "Juken" && r_clan !== "Hyuga" || r_voie === r_style) {
         r_voie = _.sample(style);
       }
     }
