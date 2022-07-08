@@ -26,16 +26,16 @@ var clan, elementaire, elements, ermite, l_elements, matrice_interdit, name, nb,
   elements["Raiton"]["Raiton"] = "Hariton";
   elements["Doton"]["Doton"] = "Shoton";
   elements["Suiton"]["Suiton"] = "Shinton";
-  elements["Katon"]["Suiton"] = "Vuuton";
-  elements["Katon"]["Doton"] = "Yoton";
-  elements["Katon"]["Raiton"] = "Bakuton";
-  elements["Katon"]["Futon"] = "Haiton";
-  elements["Suiton"]["Futon"] = "Hyoton";
-  elements["Suiton"]["Doton"] = "Nendoton";
-  elements["Suiton"]["Raiton"] = "Ranton";
-  elements["Doton"]["Raiton"] = "Jiton";
-  elements["Doton"]["Futon"] = "Fuukaton";
-  elements["Raiton"]["Futon"] = "Neton";
+  elements["Katon"]["Suiton"] ?? ["Suiton"]["Katon"] = "Vuuton";
+  elements["Katon"]["Doton"] ?? ["Doton"]["Katon"] = "Yoton";
+  elements["Katon"]["Raiton"] ?? ["Raiton"]["Katon"] = "Bakuton";
+  elements["Katon"]["Futon"] ?? ["Futon"]["Katon"] = "Haiton";
+  elements["Suiton"]["Futon"] ?? ["Futon"]["Suiton"] = "Hyoton";
+  elements["Suiton"]["Doton"] ?? ["Doton"]["Suiton"] = "Nendoton";
+  elements["Suiton"]["Raiton"] ?? ["Raiton"]["Suiton"] = "Ranton";
+  elements["Doton"]["Raiton"] ?? ["Raiton"]["Doton"] = "Jiton";
+  elements["Doton"]["Futon"] ?? ["Futon"]["Doton"] = "Fuukaton";
+  elements["Raiton"]["Futon"] ?? ["Futon"]["Raiton"] = "Neton";
 
         l_elements = Object.keys(elements);
 
