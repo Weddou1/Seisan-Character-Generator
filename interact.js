@@ -15,10 +15,6 @@ var clan, elementaire, elements, ermite, l_elements, matrice_interdit, name, nb,
   elements = {};
   elements["Katon"] = {};
   elements["Futon"] = {};
-
-
-
-
   elements["Raiton"] = {};
   elements["Doton"] = {};
   elements["Suiton"] = {};
@@ -38,7 +34,7 @@ var clan, elementaire, elements, ermite, l_elements, matrice_interdit, name, nb,
   elements["Doton"]["Futon"] = "Fuukaton";
   elements["Raiton"]["Futon"] = "Neton";
 
-        l_elements = Object.keys(elements);
+  l_elements = Object.keys(elements);
 
   elementaire = ["Triple", "Sublimation", "Fusion"];
   for (var i = 1; i < 4; i += 1) {
