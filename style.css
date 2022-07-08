@@ -1,0 +1,78 @@
+    body { padding: 0;margin: 0}
+.
+
+total{
+  min-width: 100%;
+  margin: 0 auto;
+}
+.first-part{
+  display: flex;
+  background-color: #940000;
+  width: 99vw;
+  height: 35vw;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+box-shadow: -1px -14px 19px -3px rgba(0,0,0,0.75) inset;
+-webkit-box-shadow: -1px -14px 19px -3px rgba(0,0,0,0.75) inset;
+-moz-box-shadow: -1px -14px 19px -3px rgba(0,0,0,0.75) inset;
+}
+
+input{
+    border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 1.5vw;
+    width: 17vw;
+
+}
+
+.first-text{
+  font-size: 3vw;
+  color: floralwhite ;
+font-family: 'Roboto', sans-serif;}
+
+
+
+.first{
+  font-size: 4vw;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.sec-part{
+  width: 99vw;
+  height: 35vw;
+  display: flex;
+  flex-direction: row;
+    justify-content: center;
+  gap: 1vw;
+  margin: 1vw;
+
+}
+
+
+
+
+.third{
+  position: sticky;
+}
+
+.secondtext{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #111111;
+  color: #f6f6f6;
+    height: 26vw;
+      width: 30vw;
+font-family: 'Roboto', sans-serif;
+font-size: 2vw;
+}
+
+.selection{
+  font-size: 1.6vw;
+  font-family: 'Press Start 2P', cursive;
+  margin-bottom: 1vw;
+  margin-top: 1vw;}
+
+#Scene3d

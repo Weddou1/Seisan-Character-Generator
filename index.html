@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEISAN</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+ <script src="three.js" type="module"></script>
+     <script src = 
+"https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" >
+    </script>
+ <script src="interact.js" > 
+
+ </script>
+
+</head>
+<body>
+
+    <div class="total">
+        <div class="first-part">
+            <div class="first-text first" >
+            GENERATEUR DE PERSONNAGE
+            </div>
+            <div class="first-text second writing" id="introduction">
+            
+            </div>
+            <div class="first-text third">
+            <label for="in">ENTREZ NOM :</label>
+            <input type="text" name="Yees" id="in" value="Reishi">
+            <button type="button" onclick="getValue();">Click Me!</button>
+            </div>
+            <canvas id="canvas3d" >
+
+            </canvas>
+        </div>
+        <div class="sec-part">
+            <div class="secondtext">
+                <div id="name1">
+                    
+                </div>
+                <div class="selection">
+                    Première voie :
+                </div>
+                <div id="firstclass1">
+                      
+                </div>
+                <div class="selection">
+                    Deuxième voie :
+                </div>
+                <div id="secondclass1"> 
+                    
+                </div>
+                <div class="selection">
+                    Natures :
+                </div>
+                <div id="firstnature1">
+                    
+                </div>
+                <div id="secondnature1">
+                    
+                </div>
+                <div id="thirdnature1">
+                    
+                </div>
+            </div>
+            <div class="secondtext">
+                <div id="name2">
+                    
+                </div>
+                <div class="selection">
+                    Première voie :
+                </div>
+                <div id="firstclass2">
+                      
+                </div>
+                <div class="selection">
+                    Deuxième voie :
+                </div>
+                <div id="secondclass2"> 
+                    
+                </div>
+                <div class="selection">
+                    Natures :
+                </div>
+                <div id="firstnature2">
+                    
+                </div>
+                <div id="secondnature2">
+                    
+                </div>
+                <div id="thirdnature2">
+                    
+                </div>
+            </div>
+            <div class="secondtext">
+                <div id="name3">
+                    
+                </div>
+                <div class="selection">
+                    Première voie :
+                </div>
+                <div id="firstclass3">
+                      
+                </div>
+                <div class="selection">
+                    Deuxième voie :
+                </div>
+                <div id="secondclass3"> 
+                    
+                </div>
+                <div class="selection">
+                    Natures :
+                </div>
+                <div id="firstnature3">
+                    
+                </div>
+                <div id="secondnature3">
+                    
+                </div>
+                <div id="thirdnature3">
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+ <script type="text/javascript">
+var i = 0;
+var txt = 'PARCE QUE TOUTE HISTOIRE A UN DEBUT.'; /* The text */
+var speed = 100; /* The speed/duration of the effect in milliseconds */
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("introduction").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+typeWriter();
+</script>
+   
+</body>
+
+</html>
